@@ -1,0 +1,9 @@
+.l-container {
+    display: flex;
+    min-height: calc(100vh - 120px);
+}
+
+.l-main {
+    flex: 1;
+    padding: 30px;
+}
