@@ -49,6 +49,11 @@
         </div>
       </section>
 
+      <section id="json-area" class="p-section">
+        <h2 class="area-ttl">json</h2>
+        <p id="message"></p>
+      </section>
+
       <section id="accordion-area" class="p-section">
         <h2 class="area-ttl">Accordion</h2>
       </section>
@@ -66,6 +71,20 @@
   <footer class="l-footer">
     <small>UI Practice</small>
   </footer>
+
+  <script>
+    // ajax通信demo
+    const jsonStr = JSON.stringify({
+      name: "永山慎之助",
+      age: 23,
+      interest: ["プログラミング", "読書"]
+    });
+
+    console.log(jsonStr);
+
+    const obj = JSON.parse(jsonStr);
+    console.log(obj);
+  </script>
 
   <script type="module" src="/src/js/main.js"></script>
 </body>
