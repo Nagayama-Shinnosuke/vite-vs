@@ -51,23 +51,23 @@ export const arr = () => {
     // 三項演算子(簡単なif else)
     // 書き方：ある条件式 ? 条件がtrueの時 : 条件がfalseの時 .
     const val1 = 1 > 0 ? "trueです" : "falseです";
-    console.log(val1);
+    // console.log(val1);
 
 
     // num のtypeof によって表示結果が可変.
     const num = "1300";
     // toLocaleString：値が数値の時に三桁で区切る処理.
-    console.log(num.toLocaleString());
+    // console.log(num.toLocaleString());
 
     const formattedNum = typeof num === 'number' ? num.toLocaleString() : "数値を入力してください";
-    console.log(formattedNum);
+    // console.log(formattedNum);
 
 
     // 2つの引数を受け取って合計する.
     const checkSum = (num1, num2) => {
         return num1 + num2 > 100 ? "100を超えています" : "許容範囲内です";
     };
-    console.log(checkSum(60, 50));
+    // console.log(checkSum(60, 50));
 
 
     // truthy, falsyについて
@@ -75,7 +75,7 @@ export const arr = () => {
     const checkTrue = (check) => {
         return (check) ? "truthyfです" : "falsyです";
     };
-    console.log(checkTrue(1));
+    // console.log(checkTrue(1));
 
 
     // 論理演算しについて.
@@ -83,7 +83,7 @@ export const arr = () => {
     // const logicalNum = 100;
     const fee = logicalNum || "金額が未設定";
     // || は左側がtrusyの場合、その時点で返却する.
-    console.log(fee);
+    // console.log(fee);
 
 
 }

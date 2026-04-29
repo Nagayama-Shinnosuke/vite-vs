@@ -6,6 +6,7 @@ import { message } from './modules/message';
 import { placeSelector } from './modules/place';
 import { quize } from './modules/quize';
 import { arr } from './modules/arr';
+import { todo } from './modules/todo';
 
 accordion();
 counter();
@@ -14,3 +15,4 @@ message();
 placeSelector();
 quize();
 arr();
+todo();
