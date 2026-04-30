@@ -7,6 +7,7 @@ import { placeSelector } from './modules/place';
 import { quize } from './modules/quize';
 import { arr } from './modules/arr';
 import { todo } from './modules/todo';
+import { tabs } from './modules/tabs';
 
 accordion();
 counter();
@@ -16,3 +17,4 @@ placeSelector();
 quize();
 arr();
 todo();
+tabs();

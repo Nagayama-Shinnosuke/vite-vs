@@ -1,5 +1,52 @@
 .p-tabs {
-    margin-bottom: 80px;
     padding: 30px;
     border: 1px solid #ddd;
+
+    .tabs-wrap {
+        margin: 10px auto;
+        width: calc(100% - 10px);
+    }
+
+    .tab-menu {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+
+        li {
+            width: 100px;
+
+            button {
+                color: #fff;
+                background-color: #c0c0c0;
+                border: none;
+                width: 100%;
+                display: inline-block;
+
+                &:hover {
+                    background-color: #333;
+                    color: #fff;
+                }
+
+                &.is-active {
+                    background-color: #333;
+                    color: #fff;
+                }
+            }
+
+
+        }
+
+    }
+
+    .tabs-body {
+        padding: 10px;
+        display: none;
+
+        &.is-active {
+            background-color: #333;
+            color: #fff;
+            display: block;
+        }
+    }
+
 }
