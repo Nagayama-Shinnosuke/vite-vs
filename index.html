@@ -10,6 +10,7 @@
 <body>
   <header class="l-header">
     <h1>UI Practice</h1>
+    <p>Javascriptの基礎勉強メモ帳</p>
   </header>
 
   <div class="l-container">
@@ -23,9 +24,14 @@
           <li><a href="#quiz-area">クイズゲーム</a></li>
           <li><a href="#arr-area">配列基本操作メモ</a></li>
           <li><a href="#todo-area">todo</a></li>
-          <li><a href="#accordion-area">Accordion</a></li>
-          <li><a href="#modal-area">Modal</a></li>
-          <li><a href="#tabs-area">Tabs</a></li>
+          <li><a href="#accordion-area">アコーディオン</a></li>
+          <li><a href="#modal-area">モーダル</a></li>
+          <li><a href="#tabs-area">タブメニュー</a></li>
+          <li><a href="#drop-area">ドロワーメニュー</a></li>
+          <li><a href="#humberger-area">ハンバーガーメニュー</a></li>
+          <li><a href="#search-area">商品絞り込みDEMO</a></li>
+          <li><a href="#sortPrice-area">価格順での並び替え</a></li>
+          <li><a href="#pagination-area">ページネーション</a></li>
         </ul>
       </nav>
     </aside>
@@ -113,16 +119,94 @@
         </div>
       </section>
 
-      <section id="accordion-area" class="p-section">
-        <h2 class="area-ttl">Accordion</h2>
+      <section id="accordion-area" class="p-section p-accordion">
+        <h2 class="area-ttl">アコーディオン</h2>
+        <p>・画面内に複数のアコーディオンメニューを配置</p>
+        <p>・１つ開いたら、他は閉じる</p>
+        <p>・開閉のためのクリッカブルな箇所はbuttonタグで実装する</p>
+        <p><a href="https://www.bring-flower.com/blog/accordion-menu/#index-01" target="_blank">※参考サイトリンク</a></p>
+        <!-- class => scroll-control でアコーディオン内のスクロール制御 -->
+        <ul class="include-accordion scroll-control">
+          <li>
+            <button class="accordionBtn" type="button">Menu-1</button>
+            <ul>
+              <li>List 1-1</li>
+              <li>List 1-2</li>
+              <li>List 1-3</li>
+            </ul>
+          </li>
+          <li>
+            <button class="accordionBtn" type="button">Menu-2</button>
+            <ul>
+              <li>List 2-1</li>
+              <li>List 2-2</li>
+              <li>List 2-3</li>
+            </ul>
+          </li>
+          <li>
+            <button class="accordionBtn" type="button">Menu-3</button>
+            <ul>
+              <li>List 3-1</li>
+              <li>List 3-2</li>
+              <li>List 3-3</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="include-accordion scroll-control">
+          <li>
+            <button class="accordionBtn" type="button">Menu-1</button>
+            <ul>
+              <li>List 1-1</li>
+              <li>List 1-2</li>
+              <li>List 1-3</li>
+            </ul>
+          </li>
+          <li>
+            <button class="accordionBtn" type="button">Menu-2</button>
+            <ul>
+              <li>List 2-1</li>
+              <li>List 2-2</li>
+              <li>List 2-3</li>
+            </ul>
+          </li>
+          <li>
+            <button class="accordionBtn" type="button">Menu-3</button>
+            <ul>
+              <li>List 3-1</li>
+              <li>List 3-2</li>
+              <li>List 3-3</li>
+            </ul>
+          </li>
+        </ul>
       </section>
 
       <section id="modal-area" class="p-section">
-        <h2 class="area-ttl">Modal</h2>
+        <h2 class="area-ttl">モーダル</h2>
       </section>
 
       <section id="tabs-area" class="p-section">
-        <h2 class="area-ttl">Tabs</h2>
+        <h2 class="area-ttl">タブメニュー</h2>
+      </section>
+
+      <section id="drop-area" class="p-section">
+        <h2 class="area-ttl">ドロワーメニュー</h2>
+      </section>
+
+      <section id="humberger-area" class="p-section">
+        <h2 class="area-ttl">ハンバーガーメニュー</h2>
+      </section>
+
+      <section id="search-area" class="p-section">
+        <h2 class="area-ttl">商品絞り込みDEMO</h2>
+      </section>
+
+      <section id="sortPrice-area" class="p-section">
+        <h2 class="area-ttl">価格順での並び替え</h2>
+      </section>
+
+      <section id="pagination-area" class="p-section">
+        <h2 class="area-ttl">ページネーション</h2>
       </section>
     </main>
   </div>
